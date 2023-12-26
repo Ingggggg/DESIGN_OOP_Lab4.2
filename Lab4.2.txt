@@ -1,0 +1,8 @@
+Factory Design Pattern
+ - ใช้ใน RegularCustomer, MountainCustomer, DelinquentCustomer เพื่อสร้าง Email และ Brochure ตามลูกค้าแต่ละประเภท
+
+Singleton Design Pattern
+ - ใช้ในส่วนของการจัดการ CommunicationFactory ใน CommunicationFactoryManager 
+
+Abstract Factory Pattern
+ - ใช้กับ Main Program ใน CustomerApplication โดยไม่ต้องรู้ถึง Concreate Class ของ Email และ Brochure ที่ใช้
